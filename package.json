@@ -1,0 +1,32 @@
+{
+  "name": "concierge_valovaya_30_32_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon -e ts  --exec \"npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexivanov/concierge_valovaya_30_32_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexivanov/concierge_valovaya_30_32_bot/issues"
+  },
+  "homepage": "https://github.com/lexivanov/concierge_valovaya_30_32_bot#readme",
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.57.6",
+    "isomorphic-fetch": "^3.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^4.9.5"
+  }
+}
